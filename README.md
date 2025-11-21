@@ -1,5 +1,5 @@
 
-# Conditional Statements in Python: Even or Odd Checker
+# EX:1 Conditional Statements in Python: Even or Odd Checker
 
 ## 🎯 Aim
 To write a Python program to check whether the given number is **even** or **odd** using `if...else` statements.
@@ -22,6 +22,121 @@ else:
 ```
 ## Output
 <img width="1263" height="234" alt="Screenshot 2025-11-21 101159" src="https://github.com/user-attachments/assets/df53806d-da02-44e4-941d-2de5f19adfcb" />
+
+## Result
+Thus, the python program was executed successfully.
+
+
+
+
+# Datatypes-Boolean Expression Evaluation in Python
+
+## 🎯 Aim
+To write a Python program that evaluates and prints the results of boolean and arithmetic expressions involving `True` and `False`.
+
+## 🧠 Algorithm
+1. Set variable `a` to the result of the expression `0 == True`.
+2. Set variable `b` to the result of the expression `False == False`.
+3. Set variable `c` to the result of the expression `True + True`.
+4. Set variable `d` to the result of the expression `False + 9`.
+5. Print the value of `a` with the label "a is".
+6. Print the value of `b` with the label "b is".
+7. Print the value of `c` with the label "c:".
+8. Print the value of `d` with the label "d:".
+
+## 💻 Program
+
+```
+a = (0 == True)
+b = (False== False)
+c = True + True
+d = False + 9
+print("a is",a)
+print("b is",b)
+print("c:",c)
+print("d:",d)
+```
+
+## Output
+
+![image](https://github.com/user-attachments/assets/cd2db99a-e127-4992-bec8-e06d5eef197e)
+
+## Result
+Thus, the python program was executed successfully.
+
+
+# Datatypes-Character Literal in Python
+
+## 🎯 Aim
+To write a Python program that prints the characters `'T'` and `'a'` using character literals.
+
+## 🧠 Algorithm
+1. Print the character `'T'`.
+2. Print the character `'a'`.
+
+## 🧾 Program
+
+```
+a=('T')
+b=('a')
+print(a)
+print(b)
+```
+## Output
+
+![image](https://github.com/user-attachments/assets/c990e350-ce02-443c-95e7-5b0df8f7048f)
+
+## Result
+Thus, the python program was executed successfully.
+
+
+# 🧮 Datatypes-Complex Number Creation in Python
+
+## 🎯 Aim
+To write a Python program that reads two integers, creates a complex number using them, and then prints the complex number along with its real and imaginary parts.
+
+## 🧠 Algorithm
+1. Read an integer input from the user and assign it to the variable `a` (real part).
+2. Read another integer input from the user and assign it to the variable `b` (imaginary part).
+3. Create a complex number `x` using the `complex(a, b)` function.
+4. Print the complex number `x`.
+5. Print the real part of `x` using `x.real`.
+6. Print the imaginary part of `x` using `x.imag`.
+
+## 💻 Program
+```
+a=int(input())
+b=int(input())
+x=complex(a,b)
+print(x)
+print(x.real)
+print(x.imag)
+```
+## Output
+
+![image](https://github.com/user-attachments/assets/5b97c63e-2001-47ed-b306-81342109ac71)
+
+## Result
+Thus, the python program was executed successfully.
+
+# Datatypes-Read and Print a String in Python
+
+## 🎯 Aim
+To write a Python program to read a string from the user and then print it.
+
+## 🧠 Algorithm
+1. Assign a variable named `men_stepped_on_the_moon`.
+2. Use `input()` to read a string from the user and store it in the variable.
+3. Print the value stored in the variable.
+
+## 🧾 Program
+```
+men_stepped_on_the_moon=int(input())
+print(men_stepped_on_the_moon)
+```
+## Output
+
+![image](https://github.com/user-attachments/assets/82cd2b20-f39f-45f8-9a8b-02645994b34b)
 
 ## Result
 Thus, the python program was executed successfully.
