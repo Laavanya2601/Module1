@@ -1,3 +1,4 @@
+<img width="1906" height="774" alt="Screenshot 2025-11-22 222144" src="https://github.com/user-attachments/assets/b38aa0e8-0354-4d9c-92be-4122b674ff80" />
 
 # EX:1 Conditional Statements in Python: Even or Odd Checker
 
@@ -140,3 +141,4 @@ print(men_stepped_on_the_moon)
 
 ## Result
 Thus, the python program was executed successfully.
+
